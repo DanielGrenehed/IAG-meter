@@ -35,10 +35,10 @@ class IIL_Wrapper(object):
         wrapper functions for IILogger
     """
 
-    def __init__(self, arg, time_function):
+    def __init__(self, arg, get_time):
         super(IIL_Wrapper, self).__init__()
         self.logger = IILogger(arg)
-        self.time_function = time_function
+        self.get_time = get_time
         self.__construct_function_map()
 
 
@@ -59,7 +59,7 @@ class IIL_Wrapper(object):
 
     def log_humalog_now(self, param):
         ammount, = param
-        self.log_humalog(ammount, self.time_function)
+        self.log_humalog([ammount, self.get_time()])
 
     def log_lantus(self, param):
         ammount, time = param
@@ -67,4 +67,4 @@ class IIL_Wrapper(object):
 
     def log_lantus_now(self, param):
         ammount, = param
-        self.log_lantus(ammount, self.time_function)
+        self.log_lantus([ammount, self.get_time()])
