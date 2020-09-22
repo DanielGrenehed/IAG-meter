@@ -1,14 +1,7 @@
 """
-
 Handle insuline injection data
 
-"""
 
-
-# startup or callback function
-
-
-"""
     example arguments:
 
     ->  H 7e
@@ -59,7 +52,6 @@ class IIL_Wrapper(object):
 
     def get_function_map(self):
         return self.function_map
-
 
     def log_humalog(self, param):
         ammount, time = param
