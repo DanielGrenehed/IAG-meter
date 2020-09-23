@@ -27,8 +27,7 @@ class IILogger(object):
         print("a", str(ammount), " t", insuline_type, " d", time)
         pass
 
-"""
-"""
+
 class IIL_Wrapper(object):
     """docstring for IIL_Wrapper.
 

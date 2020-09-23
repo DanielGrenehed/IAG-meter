@@ -27,7 +27,7 @@ def startup(arguments):
     arguments = arguments[1:] # remove filename argument
 
     a_parser = ArgParser({})
-    
+
     i_logger = IIL_Wrapper("*database*", get_time)
     a_parser.append_function_map(i_logger.get_function_map())
 
