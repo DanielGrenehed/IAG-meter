@@ -1,4 +1,5 @@
 #! /usr/bin/python
+# Author Daniel Amos Grenehed
 
 import sys
 from arg_parser import ArgParser

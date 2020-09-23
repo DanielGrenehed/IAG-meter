@@ -1,3 +1,5 @@
+# Author Daniel Amos Grenehed
+
 
 import datetime
 

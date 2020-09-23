@@ -1,3 +1,5 @@
+# Author Daniel Amos Grenehed
+
 """
 Handle insuline injection data
 

@@ -1,4 +1,4 @@
-"""#! /usr/bin/python"""
+# Author Daniel Amos Grenehed
 
 """
 function map:

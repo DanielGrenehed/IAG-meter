@@ -1,8 +1,9 @@
-import sqlite3
+# Author Daniel Amos Grenehed
 
 # Use SQLite
 # https://docs.python.org/3.8/library/sqlite3.html
 
+import sqlite3
 
 class DBConnection(object):
     """docstring for DBConnection.
